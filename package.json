@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GrissomErick/Eat-Da-Burger.git"
+    "url": "git+https://github.com/hannahwilbert/Node-Express-Handlebars"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GrissomErick/Eat-Da-Burger/issues"
+    "url": "https://github.com/hannahwilbert/Node-Express-Handlebars/issues"
   },
-  "homepage": "https://github.com/GrissomErick/Eat-Da-Burger#readme",
+  "homepage": "https://github.com/hannahwilbert/Node-Express-Handlebars#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
