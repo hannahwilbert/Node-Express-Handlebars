@@ -3,7 +3,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3000; 
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
@@ -25,6 +25,6 @@ var routes = require("./controllers/controller.js");
 
 app.use(routes);
 
-app.listen(PORT, function() {
+app.listen(process.env.PORT || 3000, function() {
     console.log("Server listening on: http://localhost:" + PORT);
 });
