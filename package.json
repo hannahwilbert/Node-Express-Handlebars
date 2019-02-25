@@ -24,5 +24,8 @@
     "express-handlebars": "^3.0.0",
     "mysql": "^2.15.0",
     "npm": "1.2.x"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0"
   }
 }

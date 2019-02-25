@@ -25,6 +25,8 @@ app.set("view engine", "handlebars");
 // Import routes and give the server access to them.
 var routes = require("./controllers/controller.js");
 
+if (process.env.NODE_ENV !== 'production') { require('dotenv').config() }
+
 app.use(routes);
 
 app.listen(process.env.PORT || 3000, function() {
